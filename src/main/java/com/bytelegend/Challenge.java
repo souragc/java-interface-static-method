@@ -7,6 +7,6 @@ public interface Challenge {
     }
 
     static void main(String[] args) {
-        System.out.println();
+        System.out.println(Challenge.currentTimeSecond());
     }
 }
