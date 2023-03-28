@@ -1,8 +1,8 @@
 package com.bytelegend;
 
-public interface Challenge {
+public class Challenge {
     /** Gets the number of seconds from the Java epoch of 1970-01-01T00:00:00Z. */
-    long currentTimeSecond() {
+    static long currentTimeSecond() {
         return System.currentTimeMillis() / 1000;
     }
 
